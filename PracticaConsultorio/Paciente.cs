@@ -12,6 +12,7 @@ namespace PracticaConsultorio
         public string Dirrecion { get; set; }
         public string Telefono { get; set; }
         public int Edad { get; set; }
+        public float Peso { get; set; }
         public float Altura { get; set; }
         public string EnfermedadesCronicas { get; set; }
 
@@ -23,8 +24,9 @@ namespace PracticaConsultorio
             Edad = 00;
             Altura = 00;
             EnfermedadesCronicas = "Nueva Enfermedad";
+            Peso = 00;
         }
-        public Paciente(string nombre, string dirrecion, string telefono, int edad, float altura, string enfermedadescronicas)
+        public Paciente(string nombre, string dirrecion, string telefono, int edad, float altura, string enfermedadescronicas, float peso)
         {
             Nombre = nombre;
             Dirrecion = dirrecion;
@@ -32,6 +34,7 @@ namespace PracticaConsultorio
             Edad = edad;
             Altura = altura;
             EnfermedadesCronicas = enfermedadescronicas;
+            Peso = peso;
         }
     }
 }

@@ -50,6 +50,7 @@
 
 
         </Grid>
+        <Button x:Name="btnHistorialConsultas" Content="Historial Consultas" HorizontalAlignment="Left" Margin="400,10,0,0" VerticalAlignment="Top" Width="108" Click="btnHistorialConsultas_Click"/>
 
 
 

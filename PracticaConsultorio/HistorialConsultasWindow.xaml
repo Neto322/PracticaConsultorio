@@ -5,10 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PracticaConsultorio"
         mc:Ignorable="d"
-        Title="HistorialConsultasWindow" Height="450" Width="406.667">
-    <Grid>
+        Title="HistorialConsultasWindow" Height="450" Width="523.74">
+    <Grid Margin="0,0,2,1">
         <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Nombre:" VerticalAlignment="Top"/>
-        <TextBlock HorizontalAlignment="Left" Margin="10,31,0,0" TextWrapping="Wrap" Text="Nombre Del Paciente:" VerticalAlignment="Top"/>
+        <TextBlock x:Name="lblNombrePaciente" HorizontalAlignment="Left" Margin="10,31,0,0" TextWrapping="Wrap" Text="Nombre Del Paciente:" VerticalAlignment="Top"/>
         <ScrollViewer HorizontalAlignment="Left" Height="352" Margin="10,57,0,0" VerticalAlignment="Top" Width="379">
             <StackPanel Name="stckHistorialConsultas" />
         </ScrollViewer>
